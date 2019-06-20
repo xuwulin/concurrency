@@ -6,4 +6,5 @@ package com.xwl.concurrent;
  * @Description:
  */
 public class Test {
+
 }
