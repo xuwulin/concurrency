@@ -1,7 +1,7 @@
 package com.xwl.concurrent.Atomoic;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/11 14:58
  * @Description: AtomicLong通过CAS提供了非阻塞的原子性操作，相比使用阻塞算法的同步器来说它的性能已经很好了，
  * 但是在高并发下大量线程会同时去竞争更新同一个原子变量，但是由于同时只有一个线程的CAS操作会成功，

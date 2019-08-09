@@ -9,7 +9,7 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/19 10:56
  * @Description: join方法：英文join的翻译，通常是加入的意思，一个线程要加入另外一个线程，最好的方法就是等着他一起走
  */

@@ -1,7 +1,7 @@
 package com.xwl.concurrent;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/6/25 21:31
  * @Description: 实现Runnable接口，模拟银行出号
  * 注意：不管是以这种方法还是用TicketWindow中使用 private static int index = 1;这种方法

@@ -1,7 +1,7 @@
 package com.xwl.concurrent;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/6/17 22:00
  * @Description: 设计模式--模板方法模式
  * Thread的run和start就是一个比较典型的模板方法模式，父代码编写算法结构代码，子类实现逻辑细节

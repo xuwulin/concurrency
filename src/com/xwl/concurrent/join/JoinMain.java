@@ -1,7 +1,7 @@
 package com.xwl.concurrent.join;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/19 14:08
  * @Description: 在主函数中，如果不使用join()方法等待AddThread,那么得到的i就可能是0或者是一个很小的树
  * ，因为AddThread还么开始执行，i的值就已经被输出了，但在使用join()方法后，

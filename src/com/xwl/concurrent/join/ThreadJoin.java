@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 import static java.util.stream.Collectors.toList;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/19 10:18
  * @Description:
  */

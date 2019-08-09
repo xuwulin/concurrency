@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/19 10:43
  * @Description:
  */

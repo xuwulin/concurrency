@@ -1,7 +1,7 @@
 package com.xwl.concurrent;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/6/25 20:40
  * @Description: 假设某银行大厅有4台出号机，下面使用程序模拟出号，假设每天最多出号50
  * 运行结果：

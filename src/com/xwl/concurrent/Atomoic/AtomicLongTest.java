@@ -3,7 +3,7 @@ package com.xwl.concurrent.Atomoic;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * @Auther: xwl
+ * @Author: xwl
  * @Date: 2019/7/11 14:37
  * @Description: 多线程使用AtomicLong统计0的个数
  * 以下代码中的两个线程各自统计自己所持有数据0的个数，每当找到一个0就会调用AtomicLong的原子性递增方法
