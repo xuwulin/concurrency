@@ -8,7 +8,7 @@ package com.xwl.concurrent.juc;
  * 相较于 synchronized 是一种较为轻量级的同步策略。
  * 注意：
  *  1. volatile 不具备“互斥性”（synchronized是互斥锁，即当一个线程进入synchronized代码块，其余线程必须等待它执行完才能进入）
- *  2. volatile 不能保证变量的“原子性”（不可分割）
+ *  2. volatile 不能保证变量的“原子性”（原子性即：不可分割）
  *
  * flag为td线程和主线程的共享数据，使用volatile关键字修饰，保证内存中数据可见
  *
