@@ -30,50 +30,8 @@ public class TestProductorAndConsumer {
         new Thread(productor, "生产者A").start();
         new Thread(consumer, "消费者B").start();
 
-        new Thread(productor, "生产者C").start();
-        new Thread(consumer, "消费者D").start();
-
-        // 运行结果：
-//        生产者A : 1
-//        生产者A : 2
-//        生产者A : 3
-//        生产者A : 4
-//        生产者A : 5
-//        生产者A : 6
-//        生产者A : 7
-//        生产者A : 8
-//        生产者A : 9
-//        生产者A : 10
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        产品已满！
-//        消费者B : 9
-//        消费者B : 8
-//        消费者B : 7
-//        消费者B : 6
-//        消费者B : 5
-//        消费者B : 4
-//        消费者B : 3
-//        消费者B : 2
-//        消费者B : 1
-//        消费者B : 0
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
-//        缺货！
+//        new Thread(productor, "生产者C").start();
+//        new Thread(consumer, "消费者D").start();
     }
 }
 
@@ -100,7 +58,7 @@ class Clerk {
     public synchronized void get() {
         // 假设最多能进10个货物
 //        if (product >= 1) {
-        while (product >= 1) { // 将if换成while; 为了避免虚假唤醒，应该总是使用再循环中！！！
+        while (product >= 1) { // 将if换成while; 为了避免虚假唤醒，应该总是使用在循环中！！！
             System.out.println("产品已满！");
             try {
                 // 产品已满！生产者就不能再继续生产了，必须等待消费者给他通知（消费者消费完了，通知继续生产）
